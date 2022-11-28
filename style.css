@@ -1,0 +1,340 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Poppins, sans-serif;
+}
+
+.navbar-brand {
+    color: #5fcf80;
+    font-size: 30px;
+    font-weight: bolder;
+}
+
+.navbar-brand:hover {
+    color: #5fcf80;
+}
+
+.navbar-nav .nav-item {
+    font-size: 15px;
+}
+
+.navbar-nav .nav-item .nav-link {
+    color: rgb(55, 66, 59);
+    padding: 10px 0px 10px 30px;
+}
+
+.navbar-nav .nav-item .nav-link:hover {
+    color: #5fcf80;
+    transition-duration: 0.3s;
+}
+
+#active {
+    color: #5fcf80;
+}
+
+.btn {
+    width: 125px;
+    height: 37px;
+    color: white;
+    background-color: #5fcf80;
+    border-radius: 50px;
+    margin-left: 20px;
+    margin-top: 2px;
+    font-size: 14px;
+    line-height: 25px;
+}
+
+
+/* HERO */
+
+#hero {
+    width: 100%;
+    height: 80vh;
+    background: url(./assest/hero-bg.jpg) top center;
+    background-attachment: fixed;
+}
+
+#hero h1 {
+    font-size: 48px;
+    font-weight: bold;
+}
+
+#hero h2 {
+    font-size: 24px;
+    font-weight: bold;
+    padding-bottom: 15px;
+}
+
+#hero .btn-get-started {
+    width: 165px;
+    height: 60px;
+    color: white;
+    background-color: transparent;
+    border-radius: 50px;
+    border: 2px solid white;
+}
+
+#hero .btn-get-started:hover {
+    background-color: #5fcf80;
+    border: 0px;
+    transition-duration: 0.9s;
+}
+
+
+/* About */
+
+#about {
+    padding: 60px 0px 60px 0px;
+    font-family: Raleway;
+}
+
+#about p {
+    font-style: italic;
+    font-family: Open Sans;
+}
+
+#about ul li {
+    list-style-type: none;
+    font-family: Open Sans;
+}
+
+
+/* COUNS */
+
+#couns {
+    width: 100%;
+    background-color: rgb(246, 247, 246);
+    padding: 30px 0px 30px 0px;
+}
+
+#couns span {
+    color: rgb(95, 207, 128);
+    font-size: 48px;
+}
+
+#couns p {
+    font-size: 15px;
+}
+
+
+/* WHY-US */
+
+#why-us {
+    padding: 30px 0px 30px 0px;
+}
+
+#why-us .content {
+    box-sizing: border-box;
+    padding: 30px;
+    background-color: rgb(95, 207, 128);
+    border-radius: 10px;
+}
+
+#why-us .btn-why-us {
+    color: white;
+    width: 165px;
+    height: 40px;
+    background-color: rgba(255, 255, 255, 0.2);
+    border: 0px;
+    border-radius: 50px;
+}
+
+#why-us .btn-why-us:hover {
+    color: #5fcf80;
+    background-color: white;
+    transition-duration: 0.9s;
+    font-size: 16px;
+    font-weight: 200;
+}
+
+#why-us i {
+    color: #5fcf80;
+    font-size: 35px;
+    background-color: rgb(236, 249, 240);
+    padding: 20px;
+    border-radius: 40px;
+}
+
+#why-us .box {
+    border: 1px solid rgb(238, 240, 239);
+    font-size: 20px;
+}
+
+#why-us .box h4 {
+    color: rgb(68, 68, 68);
+    font-size: 20px;
+    font-family: Poppins, sans-serif;
+}
+
+#why-us .box p {
+    font-size: 15px;
+    font-family: Open Sans, sans-serif;
+}
+
+
+/* FEATURES */
+
+#features a {
+    text-decoration: none;
+}
+
+#features i {
+    color: orange;
+    font-size: 30px;
+    padding-right: 10px;
+}
+
+#features h4 a {
+    color: #37423b;
+    font-size: 16px;
+}
+
+#features .icon {
+    border: 1px solid rgb(238, 240, 239);
+    padding: 20px;
+}
+
+#features .icon:hover {
+    border: 1px solid #5fcf80;
+    cursor: pointer;
+}
+
+
+/* COURSES */
+
+#courses {
+    padding: 30px 0px 30px 0px;
+}
+
+.courses-title p {
+    color: #aaaaaa;
+    font-size: 17px;
+}
+
+.courses-title h2 {
+    font-size: 35px;
+    font-weight: bolder;
+    font-family: Poppins, sans-serif;
+}
+
+.card-body-info h4 {
+    color: white;
+    background-color: rgb(95, 207, 128);
+    font-family: Raleway, sans-serif;
+    font-size: 14px;
+    line-height: 30px;
+}
+
+.card-title {
+    font-size: 20px;
+    font-family: Raleway, sans-serif;
+}
+
+.card-text {
+    font-size: 14px;
+    font-family: Open sans, sans-serif;
+}
+
+
+/* TRAİNERS */
+
+#trainers {
+    padding: 60px 0px 60px 0px;
+}
+
+#trainers .card-body span {
+    font-family: Raleway, sans-serif;
+}
+
+#trainers .card-body .social-icons {
+    font-size: 18px;
+}
+
+#trainers .card-body .social-icons i {
+    font-size: 22px;
+    padding: 2px;
+}
+
+#trainers .card-body .social-icons i:hover {
+    color: #5fcf80;
+    cursor: pointer;
+    transition-duration: 0.4s;
+}
+
+
+/* Footer */
+
+footer {
+    background-color: rgb(249, 250, 249);
+}
+
+footer {
+    font-size: 14px;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 400;
+}
+
+footer ul li {
+    list-style-type: none;
+    padding-bottom: 15px;
+}
+
+footer a {
+    color: rgb(119, 119, 119);
+    text-decoration: none;
+    font-size: 14px;
+}
+
+footer a:hover {
+    color: #5fcf80;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+footer h4 {
+    color: rgb(68, 68, 68);
+    font-size: 16px;
+    font-family: Raleway, sans-serif;
+}
+
+footer p {
+    color: rgb(119, 119, 119);
+    text-decoration: none;
+    font-size: 14px;
+}
+
+footer input {
+    width: 300px;
+    height: 40px;
+    border: 1px solid rgb(238, 240, 239);
+    border-radius: 50px;
+}
+
+footer form {
+    position: relative;
+}
+
+footer .submit {
+    width: 110px;
+    color: white;
+    background-color: rgb(95, 207, 128);
+    position: absolute;
+    right: 50px;
+}
+
+.footer-info {
+    background-color: rgb(238, 240, 239);
+}
+
+.social-icons i {
+    color: rgb(95, 207, 128);
+    font-size: 30px;
+    padding: 2px;
+}
